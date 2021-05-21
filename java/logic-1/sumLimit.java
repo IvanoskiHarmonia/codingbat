@@ -12,3 +12,6 @@ public int sumLimit(int a, int b) {
                   
     return a;
 }
+
+// this will also work:
+    return String.valueOf(a+b).length() == String.valueOf(a).length() ? a+b : a;
